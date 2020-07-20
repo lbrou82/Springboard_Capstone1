@@ -10,11 +10,11 @@ Home prices in Los Angeles County remain consistently high, which can make purch
 **Project Components**: 
 
 * Project Proposal: 
-  - *"Capstone #1 Proposal - Home Values in LA South Bay.pdf"*  
+  - *"Capstone1_Proposal - Home Values in LA South Bay.pdf"*  
 
 * Data Wrangling:
-  - *"Capstone 1 - South Bay Home Prices - Data Wrangling.pdf": Includes text summary of data wrangling/cleaning steps taken*
+  - *"Capstone1_HomePrices_Data Wrangling.pdf": Includes text summary of data wrangling/cleaning steps taken*
   - *"Capstone1_Data_Wrangling_Code.ipynb"*
 
 * Data Story: As part of the preliminary EDA process, we looked further into our data to find early insights. The code and visualizations are found in:
-  - *"Capstone1_Data_Story_Code.ipynb"*
+  - *"Capstone1_HomePrices_DataStoryCode.ipynb"*
