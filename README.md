@@ -18,3 +18,12 @@ Home prices in Los Angeles County remain consistently high, which can make purch
 
 * Data Story: As part of the preliminary EDA process, we looked further into our data to find early insights. The code and visualizations are found in:
   - *"Capstone1_HomePrices_DataStoryCode.ipynb"*
+
+* Apply Statistics:
+  - *"Capstone1_HomePrices_ApplyStatistics.ipynb"*
+  - *"Capstone1_ HomePrices_ApplyStatistics"*
+  
+* Presentation Slides: 
+  - *"Capstone1_HomePrices_Presentation.pdf"*
+  
+ 
