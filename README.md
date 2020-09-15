@@ -2,28 +2,46 @@
 
 **Description**:  
 
-This is a repository for my first Capstone Project as part of the Springboard's Data Science Career Track Program. More information about the project - including a description of the files - is below. 
+This is a repository for my first Capstone Project as part of the Springboard's Data Science Career Track Program. More information about the project is below. 
 
-**Problem Statement**:   
-Home prices in Los Angeles County remain consistently high, which can make purchasing a home difficult for those unfamiliar with the market, the neighborhoods, or the popular home features in those neighborhoods (i.e. number of bedrooms, or proximity to a certain school district). Being able to predict home prices within the neighborhoods in the county would be a benefit to many. For example, for a first-time home buyer, the decision to put a bid on a home is a big one, and knowing early on whether or not a particular home is over-(or under-)valued would save them time, money, and stress. Additionally, this kind of information may be useful for a new home builder, as they assess the features that would be important to get the most value for their new build. In this project, I will look at a specific set of neighborhoods in the southwest corner of Los Angeles County, South Bay. I will look at home sales from the past two years in this area.
+**Summary**:
+This project sought to predict home prices in one area of Los Angeles County: South Bay. Home price information is helpful for a number of clients such as new home buyers/sellers, real estate agents, and new home builders. 
+
+Data Wrangling and Exploratory Data Analysis (EDA) were done primarily using the pandas library in Python. The original dataset was manually downloaded from Redfin.com into 84 separate files. It was merged, cleaned and reduced to 13,631 sales, with 18 individual features, ranging from 2018 and 2020.
+
+Some insights from the project include: 
+
+- More homes were sold in the summer,  and there seems to be a price difference between homes sold in summer versus homes sold in other seasons. 
+
+- The top two predictors of home prices in this area were Square Feet and Longitude (i.e. proximity to the ocean).
+
+- Other predictors of home price include: Year Built, Lot Size, and whether a home is in a specific neighborhood, with homes in Hermosa Price being a larger predictor than other neighborhoods. 
+
+- I was able to train a model using Random Forest Regression in scikit-learn to predict homes with an R2 of 0.84. Corresponding code for the project and other write ups (including slides) can be found in the project folders. 
+
 
 **Project Components**: 
 
-* Project Proposal: 
-  - *"Capstone1_Proposal - Home Values in LA South Bay.pdf"*  
+* /data
+    /interim  
+    /processed: Cleaned dataset for modeling 
+    /raw: Includes original downloaded files from Redfin.com  
+    
+* /notebooks
+    - 01.Capstone1_HomePrices_DataWranglingCode.ipynb
+    - 02.Capstone1_HomePrices_DataStoryCode.ipynb
+    - 03.Capstone1_HomePrices_ApplyStatisticsCode.ipynb
+    - 04.Capstone1_HomePrices_InDepthAnalysisCode.ipynb  
+    
+* /reports
+    - 00.Capstone1_HomePrices_ProjectProposal.pdf
+    - 01.Capstone1_HomePrices_DataWrangling.pdf
+    - 02.Capstone1_HomePrices_ApplyStatistics.pdf
+    - 03.Capstone1_Milestone Report.pdf
+    - 04.Capstone1_HomePrices_InDepthAnalysis.pdf  
+    
+* Presentation Slides: Capstone1_HomePrices_Presentation.pdf
 
-* Data Wrangling:
-  - *"Capstone1_HomePrices_Data Wrangling.pdf": Includes text summary of data wrangling/cleaning steps taken*
-  - *"Capstone1_Data_Wrangling_Code.ipynb"*
-
-* Data Story: As part of the preliminary EDA process, we looked further into our data to find early insights. The code and visualizations are found in:
-  - *"Capstone1_HomePrices_DataStoryCode.ipynb"*
-
-* Apply Statistics:
-  - *"Capstone1_HomePrices_ApplyStatistics.ipynb"*
-  - *"Capstone1_ HomePrices_ApplyStatistics"*
-  
-* Presentation Slides: 
-  - *"Capstone1_HomePrices_Presentation.pdf"*
+* Final Report: Capstone1_HomePrices_FinalReport.pdf 
   
  
