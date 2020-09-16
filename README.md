@@ -22,10 +22,11 @@ Some insights from the project include:
 
 **Project Components**: 
 
-* /data
-    /interim  
-    /processed: Cleaned dataset for modeling 
-    /raw: Includes original downloaded files from Redfin.com  
+* /data   
+    - /interim 
+    - /processed: Cleaned dataset for modeling  
+    - /raw: Includes original downloaded files from Redfin.com   
+    
     
 * /notebooks
     - 01.Capstone1_HomePrices_DataWranglingCode.ipynb
